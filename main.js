@@ -29,7 +29,7 @@ let EmailSubject = "一封暖暖的小邮件";
 
 //每日发送时间
 let EmailHour = 15;
-let EmialMinminute= 10;
+let EmialMinminute= 32;
 
 // 爬取数据的url
 const OneUrl = "http://wufazhuce.com/";
@@ -142,8 +142,8 @@ function sendMail(HtmlData) {
   
     let transporter = nodemailer.createTransport({
       service: EmianService,
-      port: 465,
-      secureConnection: true,
+      port: 25,//465
+      secureConnection: false,
       auth: EamilAuth
     });
   
