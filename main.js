@@ -17,19 +17,19 @@ let EmianService = "126";
 //发送者邮箱账户SMTP授权码
 let EamilAuth = {
   user: "huihui7987@126.com",
-  pass: "huihui920228wyyx"
+  pass: "huihui7987131452"
 };
 //发送者昵称与邮箱地址
 let EmailFrom = '"vince" <huihui7987@126.com>';
 
 //接收者邮箱地
-let EmailTo = "huihui7987@126.com";
+let EmailTo = "798711670@qq.com";
 //邮件主题
 let EmailSubject = "一封暖暖的小邮件";
 
 //每日发送时间
-let EmailHour = 10;
-let EmialMinminute= 46;
+let EmailHour = 15;
+let EmialMinminute= 10;
 
 // 爬取数据的url
 const OneUrl = "http://wufazhuce.com/";
